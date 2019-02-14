@@ -190,5 +190,3 @@ extension Configuration {
 private func isConfigOptional() -> Bool {
     return !CommandLine.arguments.contains("--config")
 }
-
-
